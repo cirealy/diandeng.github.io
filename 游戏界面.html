@@ -13,14 +13,23 @@
     <script src="js/auto.js"></script>
 </head>
 <body>
+<div class="" id="viewport">
     <div class="game">
         <a href="javascript:void (0)" class="jyzx g-item " ></a>
     </div>
-    <script src="js/jquery-3.1.1.min.js"></script>
-    <script type="text/javascript">
-        $(".g-item").click(function(){
-            $(".g-item").addClass("g-item-act")
-        });
-    </script>
+</div>
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/jquery.porthole.js"></script>
+<script type="text/javascript">
+    $('#viewport').porthole({
+        start : [1398, 1270],
+        callback: function() {
+            console.log('loaded');
+        }
+    });
+    $(".g-item").click(function(){
+        $(".g-item").addClass("g-item-act")
+    });
+</script>
 </body>
 </html>
