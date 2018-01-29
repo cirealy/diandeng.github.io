@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/游戏界面.html" line="56" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="83c70489-159a-4211-923d-0d19762e8b14" name="默认的" comment="" />
     <ignored path="汽博园点灯会.iws" />
@@ -21,34 +24,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="游戏界面.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="游戏界面.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/游戏界面.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6147541">
-              <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+            <state vertical-scroll-proportion="-12.5">
+              <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ddh.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ddh.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/ddh.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.5">
-              <caret line="65" column="13" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.94145197">
+              <caret line="94" column="1" selection-start-line="94" selection-start-column="1" selection-end-line="94" selection-end-column="1" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="1.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.617647">
-              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="36" selection-end-column="9" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -68,8 +59,8 @@
         <option value="$PROJECT_DIR$/css/index.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/1.html" />
-        <option value="$PROJECT_DIR$/css/ddh.css" />
         <option value="$PROJECT_DIR$/游戏界面.html" />
+        <option value="$PROJECT_DIR$/css/ddh.css" />
       </list>
     </option>
   </component>
@@ -272,18 +263,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/ddh.css">
+    <entry file="file://$PROJECT_DIR$/游戏界面.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-12.5">
-          <caret line="65" column="13" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="13" />
+          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/游戏界面.html">
+    <entry file="file://$PROJECT_DIR$/css/ddh.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6147541">
-          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.94145197">
+          <caret line="94" column="1" selection-start-line="94" selection-start-column="1" selection-end-line="94" selection-end-column="1" />
           <folding />
         </state>
       </provider>
