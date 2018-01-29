@@ -45,10 +45,26 @@ input[type=button], input[type=submit], input[type=file], button { cursor: point
 .game{
     width: 2250px;
     height: 3873px;
-    background: url("../images/game-map.jpg") no-repeat;
+    background: url("../images/game-map.jpg") no-repeat center;
+    background-size: 100% 100%;
+    position: relative;
+}
+.game .g-item{
+    display: inline-block;
+    position: absolute;
+    width: 64px;
+    height: 157px;
+    background: url("../images/dl-2.png") no-repeat;
     background-size: 100% 100%;
 }
-
+.game .g-item.g-item-act{
+    background: url("../images/dl-1.png") no-repeat;
+    background-size: 100% 100%;
+}
+.game .jyzx{
+    right: 578px;
+    top: 1398px;
+}
 
 
 
