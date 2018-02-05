@@ -72,13 +72,15 @@
 <script type="text/javascript">
     $('#viewport').porthole({
         start : [1398, 1270],
+        // start : [0, 0],
         callback: function() {
             console.log('loaded');
         }
     });
-    $(".g-item").click(function(){
-        $(".g-item").addClass("g-item-act")
-    });
+    var ltn=$('.game div');
+    $(".g-item").on('click' , ltn , function(){
+    	$(this).addClass('g-item-act');
+    } )
 </script>
 </body>
 </html>

@@ -62,37 +62,207 @@ input[type=button], input[type=submit], input[type=file], button { cursor: point
     background-size: 100% 100%;
 }
 .game .lantern_1{
-    right: 578px;
-    top: 1398px;
+    left: 350px;
+    top: 990px;
 }
-.game .lantern_1{
-    right: 578px;
-    top: 1398px;
+.game .lantern_2{
+    left: 810px;
+    top: 990px;
 }
-.game .lantern_1{
-    right: 578px;
-    top: 1398px;
+.game .lantern_3{
+    left: 950px;
+    top: 900px;
 }
-.game .lantern_1{
-    right: 578px;
-    top: 1398px;
+.game .lantern_4{
+    left: 1100px;
+    top: 950px;
 }
-.game .lantern_1{
-    right: 578px;
-    top: 1398px;
+.game .lantern_5{
+    left: 1150px;
+    top: 1100px;
 }
-.game .lantern_1{
-    right: 578px;
-    top: 1398px;
+.game .lantern_6{
+    left: 1600px;
+    top:1150px;
 }
-.game .lantern_1{
-    right: 578px;
-    top: 1398px;
+.game .lantern_7{
+    left: 1500px;
+    top: 1000px;
 }
-.game .lantern_1{
-    right: 578px;
-    top: 1398px;
+.game .lantern_8{
+    left: 330px;
+    top: 1400px;
 }
+.game .lantern_9{
+    left: 450px;
+    top: 1600px;
+}
+.game .lantern_10{
+    left: 700px;
+    top: 1350px;
+}
+.game .lantern_11{
+    left: 800px;
+    top: 1600px;
+}
+.game .lantern_12{
+    left: 1150px;
+    top: 1350px;
+}
+.game .lantern_13{
+    left: 1200px;
+    top: 1550px;
+}
+.game .lantern_14{
+    left: 1600px; 
+    top: 1385px;
+}
+.game .lantern_15{
+    left: 371px; 
+    top: 1982px;
+}
+.game .lantern_16{
+    left: 324px; 
+    top: 2239px;
+}
+.game .lantern_17{
+    left: 495px; 
+    top: 2239px;
+}
+.game .lantern_18{
+    left: 340px; 
+    top: 2490px;
+}
+.game .lantern_19{
+    left: 423px;
+    top: 2750px;
+}
+.game .lantern_20{
+    left: 805px;
+    top: 1950px;
+}
+.game .lantern_21{
+    left: 633px;
+    top: 2099px;
+}
+.game .lantern_22{
+    left: 723px;
+    top: 2099px;
+}
+.game .lantern_23{
+    left: 703px;
+    top: 2472px;
+}
+.game .lantern_24{
+    left: 860px;
+    top: 2674px;
+}
+.game .lantern_25{
+    left: 1200px;
+    top: 1883px;
+}
+.game .lantern_26{
+    left: 1079px;
+    top: 2103px;
+}
+.game .lantern_27{
+    left: 1246px;
+    top: 2317px;
+}
+.game .lantern_28{
+    left: 1193px;
+    top: 2693px;
+}
+.game .lantern_29{
+    left: 987px;
+    top: 2347px;
+}
+.game .lantern_30{
+    left: 1410px;
+    top: 2045px;
+}
+.game .lantern_31{
+    left: 1490px;
+    top: 2513px;
+}
+.game .lantern_32{
+    left: 1450px;
+    top: 2738px;
+}
+.game .lantern_33{
+    left: 1774px;
+    top: 2773px;
+}
+.game .lantern_34{
+    left: 1942px;
+    top: 2605px;
+}
+.game .lantern_35{
+    left: 2003px;
+    top: 2038px;
+}
+.game .lantern_36{
+    left: 2038px;
+    top: 2348px;
+}
+.game .lantern_37{
+    left: 1410px;
+    top: 2045px;
+}
+.game .lantern_38{
+    left: 767px;
+    top: 2911px;
+}
+.game .lantern_39{
+    left: 753px;
+    top: 3091px;
+}
+.game .lantern_40{
+    left: 1015px;
+    top: 2977px;
+}
+.game .lantern_41{
+    left: 1681px;
+    top: 2977px;
+}
+.game .lantern_42{
+   left: 1438px;
+    top: 3287px;
+}
+.game .lantern_43{
+    left: 1715px;
+    top: 3287px;
+}
+.game .lantern_44{
+    left: 2126px;
+    top: 3150px;
+}
+.game .lantern_45{
+    left: 1900px;
+    top: 1080px;
+}
+.game .lantern_46{
+    left: 1816px;
+    top: 1680px;
+}
+.game .lantern_47{
+    left: 687px;
+    top: 582px;
+}
+.game .lantern_48{
+    left: 1429px;
+    top: 245px;
+}
+.game .lantern_49{
+    left: 262px;
+    top: 3468px;
+}
+.game .lantern_50{
+    left: 1006px;
+    top: 3452px;
+}
+
+
 #viewport {
     position: fixed;
     top: 0;
