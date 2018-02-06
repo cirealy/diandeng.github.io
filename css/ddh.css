@@ -62,20 +62,20 @@ input[type=button], input[type=submit], input[type=file], button { cursor: point
     background-size: 100% 100%;
 }
 .game .lantern_1{
-    left: 350px;
-    top: 990px;
+    left: 197px;
+    top: 1037px;
 }
 .game .lantern_2{
-    left: 810px;
-    top: 990px;
+    left: 630px;
+    top: 1038px;
 }
 .game .lantern_3{
-    left: 950px;
-    top: 900px;
+    left: 501px;
+    top: 104px;
 }
 .game .lantern_4{
-    left: 1100px;
-    top: 950px;
+    left: 1274px;
+    top: 682px;
 }
 .game .lantern_5{
     left: 1150px;
@@ -150,8 +150,8 @@ input[type=button], input[type=submit], input[type=file], button { cursor: point
     top: 2099px;
 }
 .game .lantern_23{
-    left: 703px;
-    top: 2472px;
+    left: 264px;
+    top: 3124px;
 }
 .game .lantern_24{
     left: 860px;
@@ -178,8 +178,8 @@ input[type=button], input[type=submit], input[type=file], button { cursor: point
     top: 2347px;
 }
 .game .lantern_30{
-    left: 1410px;
-    top: 2045px;
+    left: 1956px;
+    top: 690px;
 }
 .game .lantern_31{
     left: 1490px;
@@ -274,11 +274,59 @@ input[type=button], input[type=submit], input[type=file], button { cursor: point
     height: 100%;
     cursor: crosshair;
 }
-
-
-
-
-
+.hy{
+    min-height: 100%;
+    background: url(../images/hy-bg.jpg) repeat-y ;
+    background-size: contain;
+    padding: 0 0.72rem 0.72rem;
+    color:#fff;
+    font-size: 0.4rem;
+}
+.hy-tit{
+    padding-top: 0.86rem;
+}
+.hy-tit img{
+    width: 8.53rem;
+}
+.hy-list li{
+    width: 1.6rem;
+    margin-top: 0.73rem;
+    float: left;
+    margin-right: 0.72rem;
+    text-align: center;
+    position: relative;
+}
+.hy-list li:nth-child(4n){
+    margin-right: 0;
+}
+.hy-list li img{
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius: 100%;
+    border: 0.03rem solid #ffffff;
+    background: #fff;
+}
+.hy-list li p{
+    margin-top: 0.1rem;
+    width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.hy-list li label{
+    color: #cd212f;
+    font-size: 0.26rem;
+    display: block;
+    position: absolute;
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 50%;
+    background: #fec969;
+    right: -0.3rem;
+    top:-0.1rem;
+    line-height: 0.8rem;
+    text-align: center;
+}
 
 
 
