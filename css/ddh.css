@@ -331,7 +331,7 @@ input[type=button], input[type=submit], input[type=file], button { cursor: point
     background: #fec969;
     margin-top: 0.33rem;
     border-radius: 0.05rem;
-    padding: 1rem;
+    padding: 1rem 0;
     position: relative;
     text-align: center;
 }
@@ -339,7 +339,7 @@ input[type=button], input[type=submit], input[type=file], button { cursor: point
     color: #d13d39;
     font-size: 0.26rem ;
     text-align: center;
-    margin: 0.6rem auto 0;
+    margin: 0 auto ;
 
 }
 .jp-box i{
@@ -358,16 +358,28 @@ input[type=button], input[type=submit], input[type=file], button { cursor: point
     top: 0.1rem;
     right: 0.1rem;
     transform: rotate(90deg);
+    -ms-transform:rotate(90deg);     /* IE 9 */
+    -moz-transform:rotate(90deg);    /* Firefox */
+    -webkit-transform:rotate(90deg); /* Safari 和 Chrome */
+    -o-transform:rotate(90deg);  /* Opera */
 }
 .jp-box .i3{
     bottom: 0.1rem;
     left: 0.1rem;
     transform: rotate(270deg);
+    -ms-transform:rotate(270deg);     /* IE 9 */
+    -moz-transform:rotate(270deg);    /* Firefox */
+    -webkit-transform:rotate(270deg); /* Safari 和 Chrome */
+    -o-transform:rotate(270deg);  /* Opera */    
 }
 .jp-box .i4{
     bottom: 0.1rem;
     right: 0.1rem;
     transform: rotate(180deg);
+    -ms-transform:rotate(180deg);     /* IE 9 */
+    -moz-transform:rotate(180deg);    /* Firefox */
+    -webkit-transform:rotate(180deg); /* Safari 和 Chrome */
+    -o-transform:rotate(180deg);  /* Opera */    
 }
 .hb-bg{
     background: url(../images/hb-bg.png) no-repeat;
@@ -379,13 +391,21 @@ input[type=button], input[type=submit], input[type=file], button { cursor: point
     font-weight: bold;
     font-size: 0.26rem;
     padding-top: 0.26rem;
+    margin-bottom: 0.4rem;
 }
 .hb-bg em{
     font-size: 0.66rem;
     font-family: Arial;
 }
-
-
+.lp-list li{
+    float: left;
+    margin-left: 0.5rem;
+    margin-bottom: 0.4rem;
+}
+.lp-list li img{
+    width: 2.18rem;
+    height: 1.76rem;
+}
 
 
 
