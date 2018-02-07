@@ -426,7 +426,7 @@ input[type=button], input[type=submit], input[type=file], button { cursor: point
     width: 8.54rem;
     min-height: 13.52rem;
     position: fixed;
-    top: 1rem;
+    top: 0.5rem;
     left: 50%;
     margin-left: -4.27rem;
     text-align: center;
@@ -465,13 +465,16 @@ input[type=button], input[type=submit], input[type=file], button { cursor: point
     margin-top: 0.2rem;
     margin-bottom: 0.3rem;
 }
+.popup1 .p-btn{
+    margin-top: 0.5rem;
+}
 .popup2 .popup-pannel {
     background: url(../images/wzj-bg.png) no-repeat;
     background-size: 100% 100%;
     width: 8.54rem;
     min-height: 12.97rem;
     position: fixed;
-    top: 1rem;
+    top: 0.5rem;
     left: 50%;
     margin-left: -4.27rem;
     text-align: center;
