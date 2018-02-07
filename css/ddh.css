@@ -1,5 +1,5 @@
 html,body{height: 100%}
-html {font-family: '微软雅黑', Helvetica, STHeiTi, Arial, sans-serif; -webkit-text-size-adjust: 100%;font-size: 75px;}
+html {font-family: Arial,'微软雅黑', Helvetica, STHeiTi,  sans-serif; -webkit-text-size-adjust: 100%;font-size: 75px;}
 *{-webkit-box-sizing: border-box;box-sizing: border-box;margin: 0;padding: 0;}
 body{-webkit-overflow-scrolling: touch;font-size: 0.38rem;}
 em{font-style: normal}
@@ -406,17 +406,139 @@ input[type=button], input[type=submit], input[type=file], button { cursor: point
     width: 2.18rem;
     height: 1.76rem;
 }
+.popup {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 100;
+    display: none;
+}
+.popup .popup-bg {
+    background: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 100%;
+}
+.popup1 .popup-pannel {
+    background: url(../images/zj-bg.png) no-repeat;
+    background-size: 100% 100%;
+    width: 8.54rem;
+    min-height: 13.52rem;
+    position: fixed;
+    top: 1rem;
+    left: 50%;
+    margin-left: -4.27rem;
+    text-align: center;
+    padding: 0.625rem 0 0;
+}
+.popup1 .close img{
+    width: 0.75rem;
+    height: 1rem;
+    position: absolute;
+    right: 0;
+    top: -0.15rem;
+}
+.popup1 .price{
+    color: #d13d39;
+    font-size: 1.06rem;
+    margin-top: 0.8rem;
+    transform: rotate(-4deg);
+}
+.popup1 .price em{
+    font-size: 2.66rem;
+    font-weight: bold;
+    font-family: Arial;
+}
+.popup1 .p-info{
+    color: #feeb79;
+    font-size: 0.42rem;
+    margin-top: 4rem;
+    line-height: 0.8rem
+}
+.p-btn{
+    width: 4.26rem;
+    height: 0.86rem;
+    background: url(../images/look.png) no-repeat;
+    background-size: 100% 100%;
+    border: none;
+    margin-top: 0.26rem;
+}
+.popup2 .popup-pannel {
+    background: url(../images/wzj-bg.png) no-repeat;
+    background-size: 100% 100%;
+    width: 8.54rem;
+    min-height: 12.97rem;
+    position: fixed;
+    top: 1rem;
+    left: 50%;
+    margin-left: -4.27rem;
+    text-align: center;
+    padding: 0.625rem 0 0;
+}
+.popup2 .close img{
+    width: 0.44rem;
+    height: 0.44rem;
+    position: absolute;
+    right: 0.26rem;
+    top: 0.26rem;
+}
+.popup3 .popup-pannel {
+    background: url(../images/zj-bg1.png) no-repeat;
+    background-size: 100% 100%;
+    width: 8.54rem;
+    min-height: 14.69rem;
+    position: fixed;
+    top: 1rem;
+    left: 50%;
+    margin-left: -4.27rem;
+    text-align: center;
+    padding: 0.625rem 0 0;
+}
+.popup3 .close img{
+    width: 0.44rem;
+    height: 0.44rem;
+    position: absolute;
+    right: 0.26rem;
+    top: 1.22rem;
+}
+.popup3 .dp-name{
+    width: 4.72rem;
+    height: 1.92rem;
+    background:url(../images/zj-bg2.png) no-repeat;
+    background-size: 100% 100%;
+    font-size: 0.53rem;
+    font-weight: bold;
+    color: #d13d39;
+    margin: 1rem auto 0;
+    padding-top: 0.5rem;
+}
+.popup3 .dp-name img{
+    width: 1.02rem;
+    height: 1.02rem;
+    vertical-align: bottom;
 
-
-
-
-
-
-
-
-
-
-
-
+}
+.popup3 .dp-info p{
+    color: #d13d39;
+    background: #feeb79;
+    width: 6.82rem;
+    padding: 0.26rem;
+    margin:-0.4rem auto 0;
+    border-radius: 0.15rem;
+    line-height: 0.6rem;
+    text-align: left;
+    font-size: 0.35rem;
+}
+.popup3 .jp-name{
+    width: 6.82rem;
+    font-size: 0.35rem;
+    color: #feeb79;
+    margin:0.5rem auto ;
+}
+.popup3 .jp-img img{
+    width: 2.18rem;
+    height: 1.76rem;
+}
 
 
