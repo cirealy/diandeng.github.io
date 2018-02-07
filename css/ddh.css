@@ -34,14 +34,14 @@ input[type=button], input[type=submit], input[type=file], button { cursor: point
     background-size: 100% 100%;
     position: relative;
 }
-.index .start{
+/* .index .start{
     width: 2.8rem;
     height: 4rem;
     display: inline-block;
     left:3.49rem;
     bottom:2.2rem;
     position: absolute;
-}
+} */
 .game{
     width: 2250px;
     height: 3873px;
@@ -462,7 +462,8 @@ input[type=button], input[type=submit], input[type=file], button { cursor: point
     background: url(../images/look.png) no-repeat;
     background-size: 100% 100%;
     border: none;
-    margin-top: 0.46rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.3rem;
 }
 .popup2 .popup-pannel {
     background: url(../images/wzj-bg.png) no-repeat;
@@ -487,9 +488,9 @@ input[type=button], input[type=submit], input[type=file], button { cursor: point
     background: url(../images/zj-bg1.png) no-repeat;
     background-size: 100% 100%;
     width: 8.54rem;
-    min-height: 14.69rem;
+    min-height: 13rem;
     position: fixed;
-    top: 1rem;
+    top: 0.4rem;
     left: 50%;
     margin-left: -4.27rem;
     text-align: center;
@@ -510,7 +511,7 @@ input[type=button], input[type=submit], input[type=file], button { cursor: point
     font-size: 0.53rem;
     font-weight: bold;
     color: #d13d39;
-    margin: 1rem auto 0;
+    margin: 0.8rem auto 0;
     padding-top: 0.5rem;
 }
 .popup3 .dp-name img{
@@ -522,7 +523,7 @@ input[type=button], input[type=submit], input[type=file], button { cursor: point
 .popup3 .dp-info p{
     color: #d13d39;
     background: #feeb79;
-    width: 6.82rem;
+    width: 7.8rem;
     padding: 0.26rem;
     margin:-0.4rem auto 0;
     border-radius: 0.15rem;
@@ -534,11 +535,11 @@ input[type=button], input[type=submit], input[type=file], button { cursor: point
     width: 6.82rem;
     font-size: 0.35rem;
     color: #feeb79;
-    margin:0.5rem auto ;
+    margin:0.3rem auto ;
 }
 .popup3 .jp-img img{
-    width: 2.85rem;
-    height: 2.32rem;
+    width: 1.86rem;
+    height: 1.5rem;
 }
 .link-jp img{
     width: 1.62rem;
