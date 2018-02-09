@@ -337,7 +337,7 @@ input[type=button], input[type=submit], input[type=file], button { cursor: point
 }
 .jp-box p{
     color: #d13d39;
-    font-size: 0.32rem ;
+    font-size: 0.4rem ;
     text-align: center;
     margin: 0 0.6rem ;
     line-height: 0.6rem;
@@ -548,21 +548,21 @@ input[type=button], input[type=submit], input[type=file], button { cursor: point
 .link-dl img{
     width: 1.56rem;
     height: 2.34rem;
-    position: absolute;
+    position: fixed;
     right: 0;
     top: 5.6rem;
 }
 .link-jp img{
     width: 1.62rem;
     height: 1.78rem;
-    position: absolute;
+    position: fixed;
     right: 0;
     top: 8.3rem;
 }
 .link-gz img{
     width: 1.41rem;
     height: 1.64rem;
-    position: absolute;
+    position: fixed;
     right: 0.1rem;
     top: 10.6rem;
 }
