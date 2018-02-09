@@ -337,10 +337,11 @@ input[type=button], input[type=submit], input[type=file], button { cursor: point
 }
 .jp-box p{
     color: #d13d39;
-    font-size: 0.26rem ;
+    font-size: 0.32rem ;
     text-align: center;
-    margin: 0 auto ;
-
+    margin: 0 0.6rem ;
+    line-height: 0.6rem;
+    text-align: left;
 }
 .jp-box i{
     width: 0.88rem;
@@ -391,7 +392,7 @@ input[type=button], input[type=submit], input[type=file], button { cursor: point
     font-weight: bold;
     font-size: 0.26rem;
     padding-top: 0.26rem;
-    margin-bottom: 0.4rem;
+    margin-bottom: 1rem;
 }
 .hb-bg em{
     font-size: 0.66rem;
@@ -544,25 +545,81 @@ input[type=button], input[type=submit], input[type=file], button { cursor: point
     width: 1.86rem;
     height: 1.5rem;
 }
-.link-jp img{
-    width: 1.62rem;
-    height: 1.78rem;
-    position: absolute;
-    right: 0;
-    top: 8.5rem;
-}
 .link-dl img{
     width: 1.56rem;
     height: 2.34rem;
     position: absolute;
     right: 0;
-    top: 11rem;
+    top: 5.6rem;
+}
+.link-jp img{
+    width: 1.62rem;
+    height: 1.78rem;
+    position: absolute;
+    right: 0;
+    top: 8.3rem;
+}
+.link-gz img{
+    width: 1.41rem;
+    height: 1.64rem;
+    position: absolute;
+    right: 0.1rem;
+    top: 10.6rem;
 }
 
-
-
-
-
+.dl0{
+    background: url("../images/dl0.png") no-repeat;
+    background-size: 100% 100%;
+}
+.dl25{
+    background: url("../images/dl25.png") no-repeat;
+    background-size: 100% 100%;
+}
+.dl50{
+    background: url("../images/dl50.png") no-repeat;
+    background-size: 100% 100%;
+}
+.dl75{
+    background: url("../images/dl75.png") no-repeat;
+    background-size: 100% 100%;
+}
+.dl100{
+    background: url("../images/dl100.png") no-repeat;
+    background-size: 100% 100%;
+}
+.back{
+    display: block;
+    width: 2.17rem;
+    height: 1.74rem;
+    background: url(../images/back.png) no-repeat;
+    background-size: 100% 100%;
+    position: fixed;
+    right: 0;
+    bottom: 1rem;
+}
+.lq-btn{
+    display: block;
+    width: 2.66rem;
+    height: 0.73rem;
+    background: url(../images/lq1.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 50%;
+    margin-left: -1.33rem;
+    bottom: 0.6rem;
+}
+.lq-btn.ylq-btn{
+    background: url(../images/lq2.png) no-repeat;
+    background-size: 100% 100%;    
+}
+.popup4 .popup-pannel img{
+    width: 7.88rem;
+    height: 8.68rem;
+    position: fixed;
+    top: 4rem;
+    left: 50%;
+    margin-left: -3.94rem;
+}
 
 
 

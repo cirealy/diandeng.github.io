@@ -69,8 +69,9 @@
         </div>
     </div>
 </div>
-<a href="我的奖品.html" class="link-jp"><img src="images/link-jp.png" alt=""></div>
-<a href="好友.html" class="link-dl"><img src="images/link-dl.png" alt=""></div>
+<a href="好友.html" class="link-dl"><img src="images/link-dl.png" alt=""></a>
+<a href="我的奖品.html" class="link-jp"><img src="images/link-jp.png" alt=""></a>
+<a href="游戏规则.html" class="link-gz"><img src="images/link-gz.png" alt=""></a>
 <div class="popup popup1" >
     <div class="popup-bg"></div>
     <div class="popup-pannel">
@@ -103,6 +104,12 @@
         <a href="我的奖品.html"><input type="button" class="p-btn"></a>
     </div>
 </div>
+<div class="popup popup4" >
+    <div class="popup-bg"></div>
+    <div class="popup-pannel">
+        <a href="javascirpt:void(0);" class="open-fd"><img src="images/fd.png" alt=""></a>
+    </div>
+</div>
 <script src="js/jquery-3.1.1.min.js"></script>
 <script src="js/jquery.porthole.js"></script>
 <script type="text/javascript">
@@ -120,8 +127,10 @@
     $('.close').on('click' , function(){
         $('.popup').hide();
     });
-
-
+    $('.open-fd').on('click' , function(){
+        $('.popup1').show();
+        $('.popup4').hide();
+    });
 </script>
 </body>
 </html>
