@@ -45,8 +45,8 @@ input[type=button], input[type=submit], input[type=file], button { cursor: point
 .game{
     /*width: 2250px;
     height: 3873px;*/
-    width: 1800px;
-    height: 3098px;
+    width: 2000px;
+    height: 3443px;
     background: url("http://i2.bvimg.com/630263/6c1455e2a12dc2a0.jpg") no-repeat center;
     background-size: 100% 100%;
     position: relative;
