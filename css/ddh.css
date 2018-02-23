@@ -1,4 +1,4 @@
-html,body{height: 100%}
+﻿html,body{height: 100%}
 html {font-family: Arial,'微软雅黑', Helvetica, STHeiTi,  sans-serif; -webkit-text-size-adjust: 100%;font-size: 75px;}
 *{-webkit-box-sizing: border-box;box-sizing: border-box;margin: 0;padding: 0;}
 body{-webkit-overflow-scrolling: touch;font-size: 0.38rem;}
@@ -45,7 +45,7 @@ input[type=button], input[type=submit], input[type=file], button { cursor: point
 .game{
     width: 2250px;
     height: 3873px;
-    background: url("http://i1.bvimg.com/630263/4f48f4e40b77e976.jpg") no-repeat center;
+    background: url("http://i2.bvimg.com/630263/f5ce257aa045a4e5.jpg") no-repeat center;
     background-size: 100% 100%;
     position: relative;
 }
