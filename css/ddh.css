@@ -43,11 +43,9 @@ input[type=button], input[type=submit], input[type=file], button { cursor: point
     position: absolute;
 } */
 .game{
-    /*width: 2250px;
-    height: 3873px;*/
-    width: 2000px;
-    height: 3443px;
-    background: url("http://i2.bvimg.com/630263/f5ce257aa045a4e5.jpg") no-repeat center;
+    width: 2250px;
+    height: 3873px;
+    background: url("http://i2.bvimg.com/630263/6c1455e2a12dc2a0.jpg") no-repeat center;
     background-size: 100% 100%;
     position: relative;
 }
