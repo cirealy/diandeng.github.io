@@ -65,11 +65,11 @@ input[type=button], input[type=submit], input[type=file], button { cursor: point
 }
 .game .lantern_1{
     left: 197px;
-    top: 1037px;
+    top: 932px;
 }
 .game .lantern_2{
     left: 630px;
-    top: 1038px;
+    top: 905px;
 }
 .game .lantern_3{
     left: 501px;
@@ -84,8 +84,8 @@ input[type=button], input[type=submit], input[type=file], button { cursor: point
     top: 1100px;
 }
 .game .lantern_6{
-    left: 1600px;
-    top:1150px;
+    left: 1470px;
+    top: 1246px;
 }
 .game .lantern_7{
     left: 1500px;
@@ -116,8 +116,8 @@ input[type=button], input[type=submit], input[type=file], button { cursor: point
     top: 1550px;
 }
 .game .lantern_14{
-    left: 1600px; 
-    top: 1385px;
+    left: 1666px;
+    top: 1405px;
 }
 .game .lantern_15{
     left: 371px; 
@@ -148,8 +148,8 @@ input[type=button], input[type=submit], input[type=file], button { cursor: point
     top: 2099px;
 }
 .game .lantern_22{
-    left: 723px;
-    top: 2099px;
+    left: 30px;
+    top: 1800px;
 }
 .game .lantern_23{
     left: 264px;
@@ -180,8 +180,8 @@ input[type=button], input[type=submit], input[type=file], button { cursor: point
     top: 2347px;
 }
 .game .lantern_30{
-    left: 1956px;
-    top: 690px;
+    left: 1880px;
+    top: 600px;
 }
 .game .lantern_31{
     left: 1490px;
@@ -196,16 +196,16 @@ input[type=button], input[type=submit], input[type=file], button { cursor: point
     top: 2773px;
 }
 .game .lantern_34{
-    left: 1942px;
-    top: 2605px;
+    left: 1860px;
+    top: 2415px;
 }
 .game .lantern_35{
-    left: 2003px;
-    top: 2038px;
+    left: 900px;
+    top: 80px;
 }
 .game .lantern_36{
-    left: 2038px;
-    top: 2348px;
+    left: 143px;
+    top: 438px;
 }
 .game .lantern_37{
     left: 1410px;
@@ -236,8 +236,8 @@ input[type=button], input[type=submit], input[type=file], button { cursor: point
     top: 3287px;
 }
 .game .lantern_44{
-    left: 2126px;
-    top: 3150px;
+    left: 1740px;
+    top: 2100px;
 }
 .game .lantern_45{
     left: 1900px;
@@ -256,12 +256,12 @@ input[type=button], input[type=submit], input[type=file], button { cursor: point
     top: 245px;
 }
 .game .lantern_49{
-    left: 262px;
-    top: 3468px;
+    left: 111px;
+    top: 2667px;
 }
 .game .lantern_50{
-    left: 1006px;
-    top: 3452px;
+    left: 1800px;
+    top: 5px;
 }
 
 
