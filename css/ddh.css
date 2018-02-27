@@ -1,4 +1,4 @@
-﻿html,body{height: 100%}
+html,body{height: 100%}
 html {font-family: Arial,'微软雅黑', Helvetica, STHeiTi,  sans-serif; -webkit-text-size-adjust: 100%;font-size: 75px;}
 *{-webkit-box-sizing: border-box;box-sizing: border-box;margin: 0;padding: 0;}
 body{-webkit-overflow-scrolling: touch;font-size: 0.38rem;}
@@ -26,7 +26,7 @@ input[type=button], input[type=submit], input[type=file], button { cursor: point
 .fr{float: right;}
 .clearfix:after {content: "."; display: block; height:0; clear:both; visibility: hidden;}
 .clearfix { *zoom:1; }
-/*1*/
+
 .index{
     width: 100%;
     min-height: 100% ;
@@ -43,7 +43,7 @@ input[type=button], input[type=submit], input[type=file], button { cursor: point
     position: absolute;
 } */
 .game{
-    /*width: 2250px;
+   /*width: 2250px;
     height: 3873px;*/
     width: 2000px;
     height: 3443px;
@@ -65,7 +65,7 @@ input[type=button], input[type=submit], input[type=file], button { cursor: point
 }
 .game .lantern_1{
     left: 197px;
-    top: 932px;
+     top: 932px;
 }
 .game .lantern_2{
     left: 630px;
@@ -236,7 +236,7 @@ input[type=button], input[type=submit], input[type=file], button { cursor: point
     top: 3287px;
 }
 .game .lantern_44{
-    left: 1740px;
+     left: 1740px;
     top: 2100px;
 }
 .game .lantern_45{
@@ -402,12 +402,12 @@ input[type=button], input[type=submit], input[type=file], button { cursor: point
 }
 .lp-list li{
     float: left;
-    margin-left: 0.5rem;
+    margin-left: 0.55rem;
     margin-bottom: 0.4rem;
 }
 .lp-list li img{
-    width: 2.18rem;
-    height: 1.76rem;
+    width: 2rem;
+    height: 2rem;
 }
 .popup {
     position: fixed;
@@ -429,9 +429,10 @@ input[type=button], input[type=submit], input[type=file], button { cursor: point
     width: 8.54rem;
     min-height: 13.52rem;
     position: fixed;
-    top: 0.5rem;
+    top: 50%;
     left: 50%;
     margin-left: -4.27rem;
+    margin-top:-6.76rem;
     text-align: center;
     padding: 0.625rem 0 0;
 }
@@ -475,11 +476,12 @@ input[type=button], input[type=submit], input[type=file], button { cursor: point
     background: url(../images/wzj-bg.png) no-repeat;
     background-size: 100% 100%;
     width: 8.54rem;
-    min-height: 12.97rem;
+    height: 12.97rem;
     position: fixed;
-    top: 0.5rem;
+    top: 50%;
     left: 50%;
     margin-left: -4.27rem;
+    margin-top:-6.48rem;
     text-align: center;
     padding: 0.625rem 0 0;
 }
@@ -491,16 +493,25 @@ input[type=button], input[type=submit], input[type=file], button { cursor: point
     top: 0.26rem;
 }
 .popup3 .popup-pannel ,.popup6 .popup-pannel {
-    background: url(../images/zj-bg1.png) no-repeat;
-    background-size: 100% 100%;
     width: 8.54rem;
-    min-height: 13rem;
+    height: 13.3rem;
     position: fixed;
-    top: 0.4rem;
+    top: 50%;
     left: 50%;
     margin-left: -4.27rem;
+    margin-top:-6.65rem;
     text-align: center;
     padding: 0.625rem 0 0;
+}
+.popup3 .p-btn{
+    height: 1rem;
+    background: transparent;
+    position: absolute;
+    bottom:0.53rem;
+    left:50%;
+    margin-left:-2.13rem;
+    margin-top:0;
+    margin-bottom:0;
 }
 .popup3 .close img,.popup6 .close img{
     width: 0.44rem;
@@ -685,10 +696,11 @@ input[type=button], input[type=submit], input[type=file], button { cursor: point
     background: url(../images/gz-bg.png) no-repeat;
     background-size: 100% 100%;
     width: 8.54rem;
-    min-height: 12.97rem;
+    height: 12.97rem;
     position: fixed;
-    top: 0.5rem;
+    top: 50%;
     left: 50%;
+    margin-top:-6.485rem;
     margin-left: -4.27rem;
     text-align: center;
     padding: 0.625rem 0 0;
