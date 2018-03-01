@@ -63,6 +63,12 @@ input[type=button], input[type=submit], input[type=file], button { cursor: point
     background: url("../images/dl-1.png") no-repeat;
     background-size: 100% 100%;
 }
+.game .g-item.g-item-fd{
+    width: 110px;
+    height: 174px;
+    background: url("../images/dl-fd.png") no-repeat;
+    background-size: 100% 100%;
+}
 .game .lantern_1{
     left: 197px;
      top: 932px;
@@ -402,8 +408,18 @@ input[type=button], input[type=submit], input[type=file], button { cursor: point
 }
 .lp-list li{
     float: left;
-    margin-left: 0.55rem;
+    width: 50%;
+    /*margin-left: 0.55rem;*/
     margin-bottom: 0.4rem;
+    text-align: center;
+}
+.lp-list li label{
+    display: block;
+    color: #d13d39;
+    font-size: 0.4rem ;
+    text-align: center;
+    margin-top:0.2rem;
+    padding:0 0.3rem;
 }
 .lp-list li img{
     width: 2rem;
@@ -603,6 +619,7 @@ input[type=button], input[type=submit], input[type=file], button { cursor: point
     background: url("../images/dl100.png") no-repeat;
     background-size: 100% 100%;
 }
+
 .back{
     display: block;
     width: 2.17rem;
